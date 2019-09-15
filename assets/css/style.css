@@ -1,37 +1,56 @@
 body {
-  background-image: url(./images/background_galaxy.jpg);
+  background-image: url("../images/background_galaxy.jpg");
   background-size: 100% auto;
 }
 
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
 
 #main-container {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   clear: both;
-  background-color: purple;
+  /* opacity: 0.4; */
 }
 
-.nav-item-white {
-background-color: white; color: black;
+.navbar {
+  background-color: black !important;
+  /* border: 1px solid rgb(36, 150, 216);
+  border-bottom-width: 2px; */
+  margin-bottom: 20px;
+  padding: 0px;
 }
 
-.nav-item-black {
-  background-color: black; color: white;
-  }
+/* .card-img {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+} */
 
+/* .auth-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+} */
+
+/* .nav-item-white {
+background-color: white;
+color: black;
+} */
+
+/* .nav-item-black {
+  background-color: black;
+  color: white;
+  } */
+/* 
   #navmaster {
-    background-image: url(./images/2crab_nebula.jpg);
-    background-size: 100% auto;
-    background-repeat: round;
-    margin-left: 0;
-  }
+    background-color: black !important;
+  } */
 
+
+
+  /*************/
 /*contact page*/
 #form-container {
   width: 100%;
@@ -39,13 +58,21 @@ background-color: white; color: black;
   margin: 0 auto;
   margin-top: 50px;
   background-color: black;
-  opacity: 0.7;
+  /* opacity: 0.9; */
   padding: 30px;
+}
+
+#formDEEP {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  clear: both;
+ 
 }
 
 .form-group {
   color: rgb(36, 150, 216);
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #contactSubmit {
@@ -69,7 +96,7 @@ background-color: white; color: black;
 .project img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+
 }
 
 .project h3 {
@@ -85,13 +112,13 @@ background-color: white; color: black;
   border-bottom: 0;
 }
 
-.main-section {
-  background-color: pink;
+.main-section h1{
+  font-weight: bolder;
+  color: rgb(36, 150, 216);
 }
 
 /*About Me*/
 #main-container {
-  padding-top: 130px;
   min-height: calc(100vh - 70px);
 }
 
@@ -101,8 +128,10 @@ background-color: white; color: black;
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
+  background: black;
   border: 1px solid #dddddd;
+  color: rgb(36, 150, 216);
+  /* opacity: 0.9; */
 }
 
 .auth-image {
@@ -111,4 +140,5 @@ background-color: white; color: black;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  opacity: 1.0 !important;
 }
