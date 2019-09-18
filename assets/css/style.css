@@ -3,87 +3,35 @@ body {
   background-size: 100% auto;
 }
 
-
-#main-container {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  clear: both;
-  /* opacity: 0.4; */
+* {
+  box-sizing: border-box;
 }
 
-.navbar {
-  background-color: black !important;
-  /* border: 1px solid rgb(36, 150, 216);
-  border-bottom-width: 2px; */
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+p {
   margin-bottom: 20px;
-  padding: 0px;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 
-#navmaster {
-  position: relative;
-
-  top: 0px;     
-  left: 0px;
-  border: 3px solid #73AD21;
-
-}
-
-
-
-/* .card-img {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
-} */
-
-/* .auth-image {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-} */
-
-/* .nav-item-white {
-background-color: white;
-color: black;
-} */
-
-/* .nav-item-black {
-  background-color: black;
-  color: white;
-  } */
-
-
-
-
-  /*************/
 /*contact page*/
-#form-container {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 50px;
-  background-color: black;
-  /* opacity: 0.9; */
-  padding: 30px;
-}
-
-#formDEEP {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  clear: both;
- 
-}
 
 .form-group {
   color: rgb(36, 150, 216);
   font-weight: bolder;
+  margin-bottom: 20px;
 }
 
 #contactSubmit {
@@ -101,13 +49,13 @@ color: black;
 }
 
 .project:nth-child(even) {
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .project img {
   width: 100%;
   border: 0 none;
-
+  opacity: 0.8;
 }
 
 .project h3 {
@@ -131,6 +79,7 @@ color: black;
 /*About Me*/
 #main-container {
   min-height: calc(100vh - 70px);
+  padding-top: 130px;
 }
 
 .main-section {
@@ -140,9 +89,8 @@ color: black;
   padding: 30px;
   margin: 0 0 40px;
   background: black;
-  border: 1px solid #dddddd;
+  border: 2px solid #cccccc;
   color: rgb(36, 150, 216);
-  /* opacity: 0.9; */
 }
 
 .auth-image {
@@ -151,5 +99,72 @@ color: black;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-  opacity: 1.0 !important;
 }
+
+/* header */
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background-color: black !important;
+  border-bottom: 2px solid #cccccc;
+}
+
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(36, 150, 216);
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+
+/*PREVIOUS CONTACT PAGE STYLING
+#form-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: black;
+  opacity: 0.9;
+  padding: 30px;
+}
+
+#formDEEP {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  clear: both;
+ 
+}
+*/
+
