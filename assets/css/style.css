@@ -102,6 +102,21 @@ nav a:first-child {
 
 /* portfolio page */
 
+.card {
+  position: relative;
+  float: left;
+  width: 274px !important;
+  height: 400px;
+  margin: 20px 0 25px;
+  margin-right: 10px;
+  overflow: auto;
+  background: black;
+}
+
+.card-img-top {
+  height: 100px;
+}
+
 .project {
   position: relative;
   float: left;
