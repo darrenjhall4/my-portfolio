@@ -111,7 +111,7 @@ nav a:first-child {
 }
 
 .project:nth-child(even) {
-  /* margin-right: 40px; */
+  margin-right: 40px;
 }
 
 .project img {
@@ -147,6 +147,11 @@ nav a:first-child {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+}
+
+.buttonSection {
+  color: rgb(36, 150, 216) !important;
+
 }
 
 /*footer*/
@@ -208,3 +213,18 @@ footer,
   margin-right: 0;
 }
 
+/*hover */
+
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+nav a:hover {
+  color: #5e7f7e;
+}
+
+.fab:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
